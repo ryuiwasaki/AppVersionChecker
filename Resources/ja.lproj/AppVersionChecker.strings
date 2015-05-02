@@ -1,0 +1,14 @@
+/* 
+  AppVersionChecker.strings
+  RecoEmo
+
+  Created by Ryu Iwasaki on 2015/05/02.
+  Copyright (c) 2015年 Ryu Iwasaki. All rights reserved.
+*/
+
+"AppVersionChecker.title" = "アップデートの要求";
+"AppVersionChecker.body" = "新しいバージョンのアプリをダウンロードしてください。";
+"AppVersionChecker.button.ok" = "OK";
+"AppVersionChecker.button.cancel" = "キャンセル";
+"AppVersionChecker.button.later" = "あとで";
+"AppVersionChecker.button.update" = "更新する";

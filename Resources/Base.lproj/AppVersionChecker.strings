@@ -1,0 +1,14 @@
+/* 
+  AppVersionChecker.strings
+  RecoEmo
+
+  Created by Ryu Iwasaki on 2015/05/02.
+  Copyright (c) 2015年 Ryu Iwasaki. All rights reserved.
+*/
+
+"AppVersionChecker.title" = "Update Request";
+"AppVersionChecker.body" = "Please download new version app from AppStore.";
+"AppVersionChecker.button.ok" = "OK";
+"AppVersionChecker.button.cancel" = "Cancel";
+"AppVersionChecker.button.later" = "Later";
+"AppVersionChecker.button.update" = "Update";
