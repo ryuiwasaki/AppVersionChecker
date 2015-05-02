@@ -9,8 +9,8 @@
 import Foundation
 import Alamofire
 
-class AppVersionChecker {
-    
+public class AppVersionChecker {
+
     private enum iTunesEndPoint : String {
         
         case AppID = "https://itunes.apple.com/%@/lookup?id=%@"
@@ -39,20 +39,20 @@ class AppVersionChecker {
     private static let kAppStoreVersionKey = "version"
     private static let kAppStoreReleaseNotesKey = "releaseNotes"
     
-    static let sharedInstance = AppVersionChecker()
+    public static let sharedInstance = AppVersionChecker()
     
-    var jsonURL = ""
-    var alertTitle = ""
-    var alertBody = ""
-    var appID : String?
+    public var jsonURL = ""
+    public var alertTitle = ""
+    public var alertBody = ""
+    public var appID : String?
     
-    var currentVersion : String {
+    private var currentVersion : String {
         
         return NSBundle.currentVersion()
     }
     
     private var endpoint : iTunesEndPoint {
-        
+
         var endpoint = iTunesEndPoint.AppID
         
         if appID == nil, let bundleid = NSBundle.mainBundle().bundleIdentifier{
@@ -140,7 +140,7 @@ class AppVersionChecker {
     And to request for required version from JSON file or AppStore data.
     
     */
-    func check() {
+    public func check() {
         
         self.checkReleaseNotesIfNeeded(currentVersion)
         self.checkRequiredVersion()
