@@ -31,7 +31,5 @@ Pod::Spec.new do |s|
   s.source_files = '/Classes'
   s.resources = '/Resources'
 
-  # s.public_header_files = '/Classes/**/*.swift'
-  # s.frameworks = 'UIKit',
   s.dependency 'Alamofire'
 end
