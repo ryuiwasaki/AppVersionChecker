@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AppVersionChecker"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Check for the app's current version was updated latest version."
   s.description  = <<-DESC
 
